@@ -43,7 +43,9 @@ export default {
     http: 'Remote',
     file: 'Local',
     openFile: 'Open File',
-    develop: 'Develop'
+    develop: 'Develop',
+    canceled: 'Canceled',
+    downloading: 'Downloading...'
   },
   kernel: {
     port: 'HTTP(s) Port',
@@ -288,7 +290,6 @@ export default {
       settings: 'Kernel Settings',
       settingsTips: 'Effective temporarily, for persistence, please modify the `profile` settings.',
       updateGEO: 'Update GEO',
-      notSupportSocks: 'System does not support SOCKS proxy',
       needPort: 'Please set the proxy port first'
     },
     controller: {
